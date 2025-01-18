@@ -10,7 +10,7 @@ for currentTime = 0:timeStep:totalSimulationTime
     % CDRAmethods
     cdraSystem.exec(currentTime);
     
-    % pause(0.5);
+     pause(0.5);
 end
 
 disp('CDRA simulation completed.');
